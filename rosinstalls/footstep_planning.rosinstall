@@ -1,0 +1,8 @@
+# L3 Framework
+- git: {local-name: src/legged_locomotion_library/l3_core, uri: 'https://github.com/tu-darmstadt-ros-pkg/l3_core.git', version: master}
+
+# L3 Footstep Planning Framework
+- git: {local-name: src/legged_locomotion_library/l3_footstep_planning, uri: 'https://github.com/tu-darmstadt-ros-pkg/l3_footstep_planning.git', version: master}
+
+# L3 Terrain Modelling
+- git: {local-name: src/legged_locomotion_library/l3_terrain_modeling, uri: 'https://github.com/tu-darmstadt-ros-pkg/l3_terrain_modeling.git', version: master}
