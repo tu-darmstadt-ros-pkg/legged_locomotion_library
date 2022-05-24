@@ -1,8 +1,12 @@
+# ViGIR pluginlib 
+- git: {local-name: src/vigir/vigir_generic_params, uri: 'https://github.com/team-vigir/vigir_generic_params.git', version: master}
+- git: {local-name: src/vigir/vigir_pluginlib, uri: 'https://github.com/team-vigir/vigir_pluginlib.git', version: noetic-devel}
+
 # L3 Framework
-- git: {local-name: src/legged_locomotion_library/l3_core, uri: 'https://github.com/tu-darmstadt-ros-pkg/l3_core.git', version: master}
+- git: {local-name: src/l3/l3_core, uri: 'https://github.com/tu-darmstadt-ros-pkg/l3_core.git', version: master}
 
 # L3 Footstep Planning Framework
-- git: {local-name: src/legged_locomotion_library/l3_footstep_planning, uri: 'https://github.com/tu-darmstadt-ros-pkg/l3_footstep_planning.git', version: master}
+- git: {local-name: src/l3/l3_footstep_planning, uri: 'https://github.com/tu-darmstadt-ros-pkg/l3_footstep_planning.git', version: master}
 
 # L3 Terrain Modelling
-- git: {local-name: src/legged_locomotion_library/l3_terrain_modeling, uri: 'https://github.com/tu-darmstadt-ros-pkg/l3_terrain_modeling.git', version: master}
+- git: {local-name: src/l3/l3_terrain_modeling, uri: 'https://github.com/tu-darmstadt-ros-pkg/l3_terrain_modeling.git', version: master}
