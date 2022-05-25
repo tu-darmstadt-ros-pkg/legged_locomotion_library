@@ -1,0 +1,7 @@
+# THOR-MANG basics (model)
+- git: {local-name: src/thor/hector_models, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_models.git', version: thormang3}
+- git: {local-name: src/thor/thor_mang_common, uri: 'https://github.com/thor-mang/ROBOTIS-THORMANG-Common.git', version: melodic-devel}
+
+# THOR-MANG planning setup
+- git: {local-name: src/thor/thor_mang_l3_config, uri: 'https://github.com/thor-mang/thor_mang_l3_config.git', version: master}
+- git: {local-name: src/thor/thor_mang_l3_footstep_planning, uri: 'https://github.com/thor-mang/thor_mang_footstep_planner.git', version: l3_integration}
