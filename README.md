@@ -1,4 +1,3 @@
-
 # Legged Locomotion Library
 Repository including all instructions and tutorials on how to use the legged locomotion library (L3).
 
@@ -35,7 +34,7 @@ L3 is tested under Ubuntu 20.04 and ROS Noetic. Older versions may work but it i
 
 All source code of the L3 framework is publicly available. Since now, no prebuild packages are available, so the current way is only a source install in your ROS workspace.
 
-### Auto installer
+### Auto Installer
 
 L3 comes with an easy-to-use quick-install script. It requires an already setup ROS workspace based on wstool and catkin.
 
@@ -47,6 +46,10 @@ L3 comes with an easy-to-use quick-install script. It requires an already setup 
 * Run `catkin build`.
 
 Just build your workspace. After a couple of minutes, your L3 setup should be ready to use.
+
+### Manual Install
+
+In the `rosinstalls` subfolder you will find `wstool` compatible `rosinstall` files that contain all the necessary data about the repositories. You can merge these files directly in your workspace using the `wstool merge` command.
 
 ## Basic Examples
 
@@ -70,6 +73,8 @@ Drag a goal pose on the grid to start planning.
 
 ### THORMANG3 Example
 
+![](https://github.com/tu-darmstadt-ros-pkg/legged_locomotion_library/blob/master/doc/thor_flat.gif)
+
 #### Install
 
 * Change directory into the legged_locomotion_library scripts `cd legged_locomotion_library/scripts`.
@@ -85,6 +90,8 @@ Drag a goal pose on the grid to start planning.
 Drag a goal pose on the grid to start planning.
 
 ### ANYmal C Example
+
+![](https://github.com/tu-darmstadt-ros-pkg/legged_locomotion_library/blob/master/doc/anymal_c_flat.gif)
 
 #### Install
 
