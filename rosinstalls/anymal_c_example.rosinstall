@@ -1,0 +1,8 @@
+# ANYmal basics (model)
+- git: {local-name: src/anymal/anymal_c_simple_description, uri: 'https://github.com/ANYbotics/anymal_c_simple_description.git', version: master}
+
+# ANYmal planning setup
+- git: {local-name: src/anymal/anymal_l3_config, uri: 'https://github.com/astumpf/anymal_l3_config.git', version: master}
+- git: {local-name: src/anymal/anymal_l3_plugins, uri: 'https://github.com/astumpf/anymal_l3_plugins.git', version: master}
+- git: {local-name: src/anymal/anymal_l3_footstep_planning, uri: 'https://github.com/astumpf/anymal_l3_footstep_planning.git', version: master}
+
