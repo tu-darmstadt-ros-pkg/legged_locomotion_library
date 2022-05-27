@@ -62,8 +62,8 @@ All source code of the L3 framework is publicly available. Since now, no prebuil
 
 L3 comes with an easy-to-use quick-install script. It requires an already setup ROS workspace based on wstool and catkin. Just clone this repository in your workspace. After a re-build and re-sourcing of your workspace, the following commands become available.
 
-* `roscd`
-* `rosrun legged_locomotion_library auto_install.sh`
+    roscd
+    rosrun legged_locomotion_library auto_install.sh
 
 Just build your workspace. After a couple of minutes, your L3 setup should be ready to use.
 
@@ -99,8 +99,8 @@ Drag a goal pose (shortcut 'g') on the grid to start planning.
 
 #### Install
 
-* `roscd`
-* `rosrun legged_locomotion_library rosinstall.sh thor_mang_example`
+    roscd
+    rosrun legged_locomotion_library rosinstall.sh thor_mang_example
 
 Just build your workspace. After a couple of minutes, your THORMANG setup should be ready to use.
 
@@ -117,8 +117,8 @@ Drag a goal pose (shortcut 'g') on the grid to start planning.
 
 #### Install
 
-* `roscd`
-* `rosrun legged_locomotion_library rosinstall.sh anymal_c_example`
+    roscd
+    rosrun legged_locomotion_library rosinstall.sh anymal_c_example
 
 Just build your workspace. After a couple of minutes, your ANYmal setup should be ready to use.
 
@@ -149,8 +149,8 @@ CUDA support is work in progress.
 
 The terrain model generator pipeline is automatically installed with the standard footstep planning setup. However, a stand-alone installation is also possible:
 
-* `roscd`
-* `rosrun legged_locomotion_library rosinstall.sh terrain_modeling`
+    roscd
+    rosrun legged_locomotion_library rosinstall.sh terrain_modeling
 
 Just build your workspace. After a couple of minutes, your terrain model generator setup should be ready to use.
 
