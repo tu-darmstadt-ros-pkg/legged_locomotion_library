@@ -165,7 +165,9 @@ and run
 
     roslaunch l3_terrain_model_generator terrain_model_generator_pcd.launch 
 
-![The generator is configured with a local region of interest filter. The center of this filter is the current position of the robot, which can be faked by placing a start pose (shortcut 'p'). As the recorded data is based on sparse laser scan, it may take some time until a feasible dense world model is available.](https://github.com/tu-darmstadt-ros-pkg/legged_locomotion_library/blob/master/doc/anymal_c_flat.gif)
+![](https://github.com/tu-darmstadt-ros-pkg/legged_locomotion_library/blob/master/doc/terrain_model_generator_pcd.gif)
+
+The generator is configured with a local region of interest filter. The center of this filter is the current position of the robot, which can be faked by placing a start pose (shortcut 'p'). As the recorded data is based on sparse laser scan, it may take some time until a feasible dense world model is available.
 
 The following shows examples using THORMANG3 and ANYmal.
 
