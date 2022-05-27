@@ -36,14 +36,15 @@ Details are available in the following publications. Please also consider citing
 
 > Alexander Stumpf, Oskar von Stryk
 > **"A Universal Footstep Planning Methodology for Continuous Walking in Challenging Terrain"**,
-> in Proceedings of ICRA 2022
+> in Proceedings of ICRA 2022,
 > [Introduction Video](https://www.youtube.com/watch?v=wUCq4B5PiHU)
 
 Bibtex:
-> @INPROCEEDINGS{2022:ICRA-Stumpf,   author = {Stumpf, Alexander and von
-> Stryk, Oskar},   title = {A Universal Footstep Planning Methodology
-> for Continuous Walking in Challenging Terrain},   organization =
-> {IEEE} }
+> @INPROCEEDINGS{2022:ICRA-Stumpf,
+>   author = {Stumpf, Alexander and von Stryk, Oskar},
+>   title = {A Universal Footstep Planning Methodology for Continuous Walking in Challenging Terrain},
+>   organization = {IEEE}
+> }
 
 
 
@@ -148,10 +149,10 @@ CUDA support is work in progress.
 
 The terrain model generator pipeline is automatically installed with the standard footstep planning setup. However, a stand-alone installation is also possible:
 
-* Change directory into the legged_locomotion_library scripts folder `roscd legged_locomotion_library/scripts`.
-* Run `./rosinstall.sh terrain_modeling`.
-* Run `wstool update`.
-* Run `catkin build`.
+* `roscd`
+* `rosrun legged_locomotion_library rosinstall.sh terrain_modeling`
+
+Just build your workspace. After a couple of minutes, your terrain model generator setup should be ready to use.
 
 ### Run Real World Ramp Example
 
@@ -167,7 +168,7 @@ and run
 
 ![](https://github.com/tu-darmstadt-ros-pkg/legged_locomotion_library/blob/master/doc/terrain_model_generator_pcd.gif)
 
-The generator is configured with a local region of interest filter. The center of this filter is the current position of the robot, which can be faked by placing a start pose (shortcut 'p'). As the recorded data is based on sparse laser scan, it may take some time until a feasible dense world model is available.
+The generator is configured with a local region of interest filter. The center of this filter is the current position of the robot, which can be faked by placing a start pose (shortcut 'p'). As the recorded data is based on a sparse laser scan, it may take some time until a suitable dense world model is available.
 
 The following shows examples using THORMANG3 and ANYmal.
 
