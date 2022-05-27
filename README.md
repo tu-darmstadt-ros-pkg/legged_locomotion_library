@@ -16,7 +16,7 @@ The legged locomotion library (l3) is a versatile library for search-based locom
 	* Optional floating base planning
 	* Easy extension and composition of the planning pipeline (e.g. cost functions and heuristics)
 	* Parallelized state expansion stage significantly accelerates dense space sampling
-	* Adaptive state-dependent/state-aware expansion strategies.
+	* Adaptive state-dependent/state-aware expansion strategies
 	* State caching enables skipping of repeated computational steps
 
 * Modular Terrain Model Generator
@@ -75,6 +75,8 @@ In the `rosinstalls` subfolder, you will find `wstool` compatible `*.rosinstall`
 
 ## Basic Examples
 
+The basic setup provides already basic examples for a bipedal and quadrupedal setup.
+
 ### Simple Bipedal Robot Example
 
     roslaunch l3_footstep_planning footstep_planner_test_bipedal.launch
@@ -129,11 +131,11 @@ Just build your workspace. After a couple of minutes, your ANYmal setup should b
 
 Drag a goal pose (shortcut 'g') on the grid to start planning.
 
-**Note:** The paper also presents the full integration pipeline using the L3 Step Controller, i.e. the robot autonomously running over rough terrain using L3. However, this version requires access to the internal ANYbotics research community repositories. Upon request, the step controller integration can be migrated to the ANYmal C version. Just leave me a message!
+**Note:** The paper also presents the full integration pipeline using the L3 Step Controller, i.e. the robot autonomously running over rough terrain using L3. However, this version requires access to the internal ANYbotics research community repositories. If you are lucky to have access to these repositories, the step controller integration can be migrated to the ANYmal C version on request. Just leave me a message!
 
 #### Remarks
 
-Turning in place is quite a challenge for search-based planners as this locomotion pattern involves steps that does not monotonically decrease the total path cost. To overcome this challenge, the L3 provides state-based adaptive state sampling. In this case, the `AnymalTurningStateGenerator` plugin is used by the planner to explicitly generate gait patterns that result in a turning motion in the desired direction.
+Turning in place is quite a challenge for search-based planners as this locomotion pattern involves steps that does not monotonically decrease the total path cost (depression region). To overcome this challenge, the L3 provides state-based adaptive state sampling. In this case, the `AnymalTurningStateGenerator` plugin is used by the planner to explicitly generate gait patterns that result in a turning motion in the desired direction.
 
 
 
@@ -141,7 +143,7 @@ Turning in place is quite a challenge for search-based planners as this locomoti
 
 The l3 framework also consists of a generic 3D world modeling generator that supplies the footstep planner with finding suitable paths and foot contacts in challenging terrain. It uses the same modular plugin approach to enable individual processing pipelines and outputs. This makes this terrain model generator framework also suitable for perception and mapping tasks without using the footstep planner.
 
-**Note:** All of the above examples are configured to optionally run with a 3D terrain model. Therefore, you can always run the terrain model generator in addition to the footstep planner. The footstep planner uses the provided 3D data but assumes a flat world if no data is available.
+**Note:** All of the above footstep planning examples are configured to optionally run with a 3D terrain model. Therefore, you can always run the terrain model generator in addition to the footstep planner. The footstep planner uses the provided 3D data but assumes a flat world if no data is available.
 
 CUDA support is work in progress.
 
