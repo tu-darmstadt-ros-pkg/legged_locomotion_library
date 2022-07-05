@@ -87,7 +87,7 @@ The basic setup provides already basic examples for a bipedal and quadrupedal se
  
 ### RViz Profile
 
-    roslaunch l3_footstep_planning rviz_footstep_planning.launch
+    roslaunch l3_footstep_planning rviz.launch
 
 Drag a goal pose (shortcut 'g') on the grid to start planning.
 
