@@ -20,5 +20,4 @@ if [ -f ${file} ]; then
 else
     echo_error "No rosinstall named \"${version}\" available."
 fi
-echo
 
