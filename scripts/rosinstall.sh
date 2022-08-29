@@ -2,7 +2,7 @@
 
 set -e
 
-script_dir="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+script_dir="$(dirname $(readlink -f $0))"
 
 source ${script_dir}/helper.sh
 
