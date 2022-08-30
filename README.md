@@ -4,6 +4,8 @@ Repository including all instructions and tutorials on how to use the legged loc
 
 THIS README IS STILL A WORK IN PROGRESS. EXPECT TO SEE MORE DETAILS AND TUTORIALS SOON.
 
+[![Introduction Video](http://img.youtube.com/vi/wUCq4B5PiHU/0.jpg)](http://www.youtube.com/watch?v=wUCq4B5PiHU "L3 Footstep Planning & Perception Framework Introduction")
+
 This work is a next-generation release based on the previous [vigir_footstep_planner](http://wiki.ros.org/vigir_footstep_planning). Many details apply to this new L3 framework as well.
 
 The legged locomotion library (l3) is a versatile library for search-based locomotion planning, navigation, and perception of multi-legged robots. The modular architectures use plugins that allow to easily create generic methods achieving high code reusability that can be applied to a wide range of different legged robots. For this reason, the migration of new robot platforms can be done with little effort, as demonstrated by the examples below.
