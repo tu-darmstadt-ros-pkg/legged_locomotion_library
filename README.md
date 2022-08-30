@@ -32,20 +32,26 @@ The legged locomotion library (l3) is a versatile library for search-based locom
 
 ## Publications
 
-Details are available in the following publications. Please also consider citing our paper if you use the footstep planner in your research.
+Details are available in the following publications accompanied by an [introduction video](https://www.youtube.com/watch?v=wUCq4B5PiHU). Please also consider citing our paper if you use the footstep planner in your research. A 
 
-> Alexander Stumpf, Oskar von Stryk
-> **"A Universal Footstep Planning Methodology for Continuous Walking in Challenging Terrain"**,
-> in Proceedings of ICRA 2022,
-> [Introduction Video](https://www.youtube.com/watch?v=wUCq4B5PiHU)
+```
+Alexander Stumpf, Oskar von Stryk
+**"A Universal Footstep Planning Methodology for Continuous Walking in Challenging Terrain"**,
+in Proceedings of ICRA 2022,
+```
+
 
 Bibtex:
-> @INPROCEEDINGS{2022:ICRA-Stumpf,
->   author = {Stumpf, Alexander and von Stryk, Oskar},
->   title = {A Universal Footstep Planning Methodology for Continuous Walking in Challenging Terrain},
->   organization = {IEEE}
-> }
-
+```
+@inproceedings{stumpf2022universal,
+  title={A Universal Footstep Planning Methodology for Continuous Walking in Challenging Terrain Applicable to Different Types of Legged Robots},
+  author={Stumpf, Alexander and von Stryk, Oskar},
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)},
+  pages={10420--10427},
+  year={2022},
+  organization={IEEE}
+}
+```
 
 
 ## Requirements
