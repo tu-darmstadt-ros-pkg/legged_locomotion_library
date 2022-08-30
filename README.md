@@ -32,7 +32,7 @@ The legged locomotion library (l3) is a versatile library for search-based locom
 
 ## Publications
 
-Details are available in the following publications accompanied by an [introduction video](https://www.youtube.com/watch?v=wUCq4B5PiHU). Please also consider citing our paper if you use the footstep planner in your research. A 
+Details are available in the following publications accompanied by an [introduction video](https://www.youtube.com/watch?v=wUCq4B5PiHU) and [a short presenetation](https://www.youtube.com/watch?v=IgzUaDpz_io). Please also consider citing our paper if you use the footstep planner in your research.
 
 ```
 Alexander Stumpf, Oskar von Stryk
