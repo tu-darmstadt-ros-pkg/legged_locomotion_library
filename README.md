@@ -170,7 +170,7 @@ This example uses recorded data from a laboratory scenario where a ramp was plac
 
 Get example pcd files:
 
-    rosrun l3_terrain_model_generator download_pcd.sh
+    rosrun l3_terrain_model_generator download_examples.sh
 
 and run
 
